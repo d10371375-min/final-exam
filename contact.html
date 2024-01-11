@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon-32x32.png">
+  <title>預約</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<!--style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+  }
+
+
+  .main_menu {
+    overflow: hidden;
+    background-color: #1264E9;
+  }
+
+
+  .main_menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  .main_menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+</style-->
+
+<body>
+ 
+    
+
+    <div class="top">
+
+      <nav class="navbar navbar-expand-lg navbar-light nav-bg ">
+        <a class="navbar-brand" href="about.html"><img src="image/logo2.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">關於幸采</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipment.html">設備環境</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">專業陣容</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                預約聯絡</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html">預約掛號</a>
+                <a class="dropdown-item" href="address.html">院所地址</a>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+  <center>
+    <div class="button"><form action="submit_appointment.php" method="post">
+
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+      <label for="contact">電話：</label>
+      <input type="tel" id="contact" name="contact" required>
+      <br>
+      <br>
+
+      <label for="date-time">預約時間：</label>
+      <input type="datetime-local" id="date-time" name="date-time" required>
+    </div>
+      <!-- 其他 -->
+    
+
+
+    <section id="appointment">
+      
+      <a href="../D10371375-張永旻/send out.html" class="btn" <div style="border-width: 3px; border-style:solid ; width: 150px; height: 30px; border-color: #1264E9; padding: 2px; text-align: center;"></div></div>確認預約</a>
+      <br>
+      <br>
+    </section>
+    </center>
+
+
+
+
+      </div>
+    </form>
+  
+  <!-- 其他内容 -->
+  </div>
+
+  </div>
+
+  <footer class="footer">
+
+    <img src="image/logo2.png">
+   
+    <p>週一至週五 : 9:00～12:00，14:30～21:30</p>
+
+    <p>周六 : 9:00～12:00，14:30～17:30</p>
+
+    <p>台南市永康區大灣路404號1、2樓</p>
+    <p>電話:06-2738668</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
